@@ -12,23 +12,11 @@ checkoutForm.addEventListener('submit', (event) => {
   // Get checkout form data
   const name = document.getElementById('name').value;
   const address = document.getElementById('address').value;
-  // ... (get other data)
-
-  // Simulate successful order
-  alert(`Order placed for ${name}! Confirmation sent to ${address}`);
-  // ... (clear
-
-// ... (other code)
-
-checkoutForm.addEventListener('submit', (event) => {
-  event.preventDefault();
-
-  // ... (get checkout form data)
 
   // Simulate successful order (replace with actual order processing)
-  alert(`Order placed for ${name}! Confirmation sent to ${address}`);
+  alert(`Proceeding towards payment details ${name}!`);
 
   // Clear cart and redirect to order placed page
   cartItems = [];
-  window.location.href = 'order-placed.html?orderNumber=12345'; // Replace with actual order number
+  window.location.href = 'payment.html';
 });
