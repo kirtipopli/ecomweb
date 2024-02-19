@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login and Registration</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="container">
+  <h1>Welcome!</h1>
+  <div class="login-section">
+    <h2>Login</h2>
+    <form id="login-form">
+      <label for="username">Username:</label>
+      <input type="text" id="username" name="username" required>
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" required>
+      <button type="submit">Login</button>
+    </form>
+    <span id="login-error-message"></span>
+    <a href="forgot-password.html" id="forgot-password">Forgot password?</a>
+  </div>
+  <div class="register-section">
+    <h2>Don't have an account? Register</h2>
+    <button id="register-button">Register</button>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
